@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class responderscript : MonoBehaviour
+public class responder : MonoBehaviour
 {
     public InputField inputNumeros;
     public float[] numeros;
@@ -10,12 +10,12 @@ public class responderscript : MonoBehaviour
     public Button button;
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
