@@ -12,31 +12,15 @@ public class spawnscript : MonoBehaviour
 
     void Start()
     {
-        Shoot();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-
-    void Shoot()
-    {
-        if (prefabsToShoot.Length > 0)
-        {
             int randomIndex = Random.Range(0, prefabsToShoot.Length);
             GameObject prefabToInstantiate = prefabsToShoot[randomIndex];
             float randomX = Random.Range(minX, maxX);
             Vector3 spawnPosition = new Vector3(randomX, ySpawn, 0f);
             Instantiate(prefabToInstantiate, spawnPosition, Quaternion.identity);
-        }
-        else
-        {
-            Debug.LogWarning("No se han asignado prefabs a prefabsToShoot en el Inspector.");
-        }
     }
 
+    void Update()
+    {
 
+    }
 }
