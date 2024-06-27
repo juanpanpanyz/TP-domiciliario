@@ -17,6 +17,8 @@ ModelImporter:
     3300002: Masa + Cereza
     4300000: Envoltorio
     4300002: Masa + Cereza
+    6400000: Envoltorio
+    6400002: Masa + Cereza
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -50,7 +52,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
