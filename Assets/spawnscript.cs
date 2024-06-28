@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class spawnscript : MonoBehaviour
 {
-    public float minX = -20f;  // Valor mínimo en el eje X (corregido)
-    public float maxX = -10f;  // Valor máximo en el eje X (corregido)
     public float ySpawn = 10f; // Posición fija en el eje Y
     public float Delay = 5.0f; // Delay entre prefab y prefab
     public GameObject[] prefabsToSpawn; // Array de prefabs disponibles para spawnear
@@ -37,7 +35,7 @@ public class spawnscript : MonoBehaviour
             for (int i = 0; i < numPrefabsToSpawn; i++)
             {
                 // Calcular una posición aleatoria dentro del rango definido
-                float randomX = Random.Range(minX, maxX);
+                float randomX = Random.Range(10, -15);
                 Vector3 spawnPosition = new Vector3(randomX, ySpawn, 0f);
 
                 // Instanciar el prefab seleccionado en la posición calculada
