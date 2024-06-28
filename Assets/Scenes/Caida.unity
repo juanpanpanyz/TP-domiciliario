@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -493,20 +493,20 @@ MonoBehaviour:
   prefabsToSpawn:
   - {fileID: 8601177833154404537, guid: 89cb2752678b0b948b73e1eeff36b313, type: 3}
   - {fileID: 8842983918578861600, guid: dae36ef2d38aaec4089981d06c870959, type: 3}
-  - {fileID: 2291932330926550528, guid: ab6f2528d8520aa47aced4d94af340f4, type: 3}
+  - {fileID: 6326197892301885176, guid: ab6f2528d8520aa47aced4d94af340f4, type: 3}
   - {fileID: 3363874305619746423, guid: 377dbaaeb2c9e5042961ed3848ad365c, type: 3}
   - {fileID: 7114516315820906460, guid: 382a5095d72ad3a4a879d8460833c1f9, type: 3}
-  - {fileID: 819816486656482072, guid: aa61390af79171a469a2d6c99ffc897f, type: 3}
+  - {fileID: 7801553188471209761, guid: aa61390af79171a469a2d6c99ffc897f, type: 3}
   - {fileID: 1292251721202224652, guid: 286e21d125a3c154fbf86592c3bde5cd, type: 3}
   - {fileID: 1749911560927620910, guid: 05684fed565924f4391dd6f8f310cd6a, type: 3}
-  - {fileID: 4630861211922457630, guid: ee32f5466e737224caaa7ccfd613c805, type: 3}
+  - {fileID: 474047501676859681, guid: ee32f5466e737224caaa7ccfd613c805, type: 3}
   - {fileID: 2012449316822289602, guid: 5efaa05845fe55342a74616c32015497, type: 3}
   - {fileID: 5882734771713982610, guid: c3fa85d3a90a3e64486490456acfe62e, type: 3}
   - {fileID: 5315280567454754, guid: 69801313287616d40864f7ff970ccb31, type: 3}
   - {fileID: 5425991850891353391, guid: 84fc8dffd8b7df4469f4c2fe334b893e, type: 3}
-  - {fileID: 3554624366321617874, guid: 0dcf1093c29d0b84888fb41f45a6fd41, type: 3}
+  - {fileID: 1028112639884094639, guid: 0dcf1093c29d0b84888fb41f45a6fd41, type: 3}
   - {fileID: 5018611981738059810, guid: cb145aa685b2e834783fd895746fbe0d, type: 3}
-  - {fileID: 7175630550795693681, guid: 27317c20de3246a4a8e57a3ccad7b043, type: 3}
+  - {fileID: 5577407902709460252, guid: 27317c20de3246a4a8e57a3ccad7b043, type: 3}
   - {fileID: 3683791177054796058, guid: 543cb4246973c4947854c6902bcc22c6, type: 3}
   minPrefabs: 1
   maxPrefabs: 10
