@@ -26,8 +26,7 @@ public class spawnscript : MonoBehaviour
 
     IEnumerator SpawnPrefabs()
     {
-        while (true)
-        {
+
             // Seleccionar un número aleatorio de prefabs para spawnear
             cantidad = Random.Range(4, 20);
             int numPrefabsToSpawn = cantidad;
@@ -45,9 +44,8 @@ public class spawnscript : MonoBehaviour
                 yield return new WaitForSeconds(spawnInterval);
             }
 
-            // Esperar el delay antes de empezar la siguiente ronda de spawns
-            yield return new WaitForSeconds(Delay);
+            
             SceneManager.LoadScene("Resultado");
         }
-    }
+    
 }
